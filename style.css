@@ -1,0 +1,324 @@
+#verticalnav{
+ 
+  width: 20%;
+  
+   animation-duration: 3s;
+   background-color: #191970;
+   height: 50%;
+   margin-top: -10; 
+   background-position: center;
+   z-index: 1;
+  
+  
+
+  
+}
+#iddiv{
+  width: 80%;
+}
+ul {
+	list-style: none;
+	}
+p {
+	margin: 1%;
+}
+br{
+  display: block;
+}
+.write{
+	
+	
+	font-style: italic;
+  width: 70%;
+}
+ul li {
+	margin-bottom: 4px;
+	color: white;
+	height: 50px;
+	margin-left: -4px;
+	}
+.cote li{
+	list-style-type: none; 
+}
+.cote li:before {
+		content: "\2192 \0020";
+	     }
+
+li a:hover{
+	color: black;
+}
+ul li:hover{
+background-color: white;
+color: #191970;
+
+
+}
+img{
+  margin-top:0px; 
+  margin-bottom: 200px;
+	margin-left: auto;
+  margin-right: auto;
+	border-radius: 50%;
+	transition: background-image 1s;
+  height: 60%;
+  width: 100%;
+}
+figcaption{
+  margin-left: auto;
+  margin-right: auto; 
+	padding: center;
+	color: white;
+	font-family: courier;
+	text-shadow: 2px 2px;
+
+}
+
+.line{
+	display:inline-grid;
+}
+.cote{
+	display: inline-grid;
+	border-bottom: 3px solid #191970;
+	margin-right:50px; 
+}
+.cote{
+border:none;
+font-style: italic;
+font-weight: bold;
+}
+.h1{
+	border-bottom: 3px solid #191970;
+	
+	font-style: italic;
+
+}
+li span{
+	font-family: cursive;
+}
+table{
+
+	border-left: 3px solid blue; 
+}
+.cercle {
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid #191970;
+}
+a:visited{
+	color: white;
+}
+a{
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+a:active{
+	color: black;
+}
+#id1{
+	color: black;
+	
+
+}
+p{
+	list-style-type: kannada;
+}
+h2{
+	font-family: sans-serif;
+	font-style: italic;
+	color: #191970;
+}
+h3{
+	font-weight: bold;
+}
+.page{
+	border-left: 4px solid #191970;
+}
+.h1{
+	border-bottom: 3px solid 191970;
+    font-family: sans-serif;
+}
+h2 span{
+	font-style: italic;
+	font-size:20px;
+	font-weight: bold;
+	color: white;
+}
+body{
+ 
+height: 100%;
+margin: 0;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+ display: flex;
+  font-size: 30px;
+  width: 30px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-envelope {
+   background: #ff6600;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#active{
+color: black;
+}
+#activee{
+background-color: white;
+color: #191970;
+height: 30px;
+
+}
+
+
+#footer{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  height: 74px;
+
+}
+#port{
+	font-size: 100px;
+}
+#competence{
+height: 30%; 
+}
+h3 span{
+  font-family: cursive;
+}
+@media (max-width: 900px) {
+  #verticalnav{
+    width: 40%;
+    height: 20%; 
+    position: relative;
+     margin-top: 0px; 
+
+  }
+  
+
+  #footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  height: 10%;
+
+
+}
+.cercle {
+    width: 0px;
+    height: 0px;
+    border-radius: 20px;
+    background: #191970;
+}
+.line{
+	display: block;
+}
+#verticalnav{
+	width: 100%;
+}
+ul li{
+	display: block;
+}
+
+img{
+	display: none;
+}
+figcaption{
+	display: none;
+}
+ figcaption{
+ 	display: none;
+
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191970;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+ 
+ background-color: white;
+color: #191970;
+height: 10px;
+}
+
+#footer{
+	 background-color: #191970;
+}
+.cercle{
+	 background-color: #333;
+}
+#port{
+	font-size: 50px;
+}
+#competence{
+height: 100%; 
+}
+#active{
+background-color: none;
+color: #191970;
+}
+#activee{
+background-color: white;
+color: #191970;
+height: 10%;
+
+
+}
+#vu{
+display: none;
+}
+
+br{
+  display: none;
+}
+#id{
+  height: 950px;
+}
+.corp{
+  background-image: url('bacgroud.gif');
+}
+}
